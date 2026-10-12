@@ -69,3 +69,5 @@ Check whether a search-results document loads before the redirect. If measuring 
 - [Safari declarative rules](https://developer.apple.com/documentation/safariservices/blocking-content-with-your-safari-web-extension)
 - [Foundation Models](https://developer.apple.com/documentation/foundationmodels/systemlanguagemodel)
 - [Safari native messaging](https://developer.apple.com/documentation/safariservices/messaging-between-the-app-and-javascript-in-a-safari-web-extension)
+
+The checked-in Xcode project uses format 110 and requires Xcode 27 or newer, even though the deployment target is OS 26. CI uses the `xcode-27` runner.

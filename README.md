@@ -16,7 +16,7 @@ Type **`w red panda`** to search Wikipedia or **`yt swift tutorial`** to search 
 
 ## Build and enable
 
-You need **Node.js 22+**, Xcode with OS 26 SDKs or newer, and a Mac for the native app build. There are no npm dependencies.
+You need **Node.js 22+**, Xcode 27 or newer (the checked-in project uses its project format), and a Mac for the native app build. There are no npm dependencies.
 
 ```sh
 git clone https://github.com/mmingo-director-of-ai/go-search.git
