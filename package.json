@@ -1,0 +1,16 @@
+{
+  "name": "go-search",
+  "version": "0.5.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "check": "node scripts/build.mjs --check && node --check extension/background.bundle.js && node --check extension/options.js && node --test",
+    "check:native": "bash scripts/check.sh --native"
+  },
+  "description": "Safari keyword routing and optional on-device shortcut suggestions",
+  "engines": {
+    "node": ">=22"
+  }
+}

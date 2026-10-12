@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Go Search</title><link rel="stylesheet" href="options.css"></head>
+<body><main>
+<header><div class="brand"><img src="icons/toolbar-128.png" width="34" height="34" alt="Mlue"><h1>Go Search</h1></div><span id="health" class="badge">Checking…</span></header>
+<section id="list-view">
+<p class="intro">A shortcut to wherever you’re going.</p>
+<div id="shortcuts" class="shortcuts" aria-label="Search shortcuts"></div>
+<button id="add" class="add">＋ Add shortcut</button>
+<section class="recommendations" aria-labelledby="suggestions-title">
+<h2 id="suggestions-title">Suggested for you</h2>
+<div id="learning-off"><p class="hint">Find shortcuts for sites you return to. Go Search learns from future visits; Safari’s existing history isn’t available. Site counts stay on this device, and private tabs are excluded.</p><button id="learn" class="primary">Enable local suggestions</button></div>
+<div id="learning-on" hidden><p id="model-status" class="hint" role="status">Based on your visits</p><p id="learning-access" class="hint" hidden>Learning only on allowed websites. To include other sites, allow Go Search there through Safari’s extension controls, or choose “Always Allow on Every Website” in Safari settings.</p><div id="suggestions"></div><p id="learning-empty" class="hint">Suggestions appear after 3 visits across at least 2 days.</p><button id="forget" class="quiet">Turn off &amp; clear learned sites</button></div>
+</section>
+<div id="setup" class="setup" hidden><p id="setup-message">Allow your search websites to enable direct routing.</p><button id="enable" class="primary">Enable Go Search</button></div>
+<footer>In Safari, type <kbd>w</kbd> followed by your search.</footer>
+</section>
+<section id="edit-view" hidden>
+<h2 id="form-title">Add shortcut</h2>
+<form id="editor">
+<label>Shortcut type<select id="kind"><option value="search">Search a site</option><option value="site">Open a website</option></select></label>
+<label>Name<input id="name" required maxlength="80" placeholder="e.g. Wikipedia" autocomplete="off"></label>
+<label>Keyword<input id="keyword" required maxlength="20" pattern="[a-z][a-z0-9-]*" placeholder="e.g. w" autocapitalize="none" spellcheck="false" autocomplete="off"></label>
+<label><span id="url-label">Search URL</span><input id="url" required type="url" placeholder="https://example.com/search?q={search}" autocapitalize="none" spellcheck="false" autocomplete="off" aria-describedby="url-hint"></label>
+<p id="url-hint" class="hint">Replace the search words with <code>{search}</code>. Go Link URLs can end in <code>/{search}</code> for a single link name (letters, numbers, dots, hyphens, underscores).</p>
+<div class="actions"><button type="button" id="cancel">Cancel</button><button type="submit" class="primary">Save shortcut</button></div>
+</form>
+<button id="remove" class="remove" hidden>Remove shortcut</button>
+<div id="confirm-remove" hidden><p>Remove this shortcut?</p><div class="actions"><button id="keep">Keep</button><button id="delete" class="remove">Remove</button></div></div>
+</section>
+<p id="status" role="status" aria-live="polite"></p>
+</main><script src="options.js" type="module"></script></body></html>

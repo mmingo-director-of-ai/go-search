@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C2EDE343076348D00504FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EDE333076348D00504FB3 /* AppDelegate.swift */; };
+		2C2EDE363076348D00504FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EDE353076348D00504FB3 /* SceneDelegate.swift */; };
+		2C2EDE393076348D00504FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE373076348D00504FB3 /* LaunchScreen.storyboard */; };
+		2C2EDE3C3076348D00504FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE3A3076348D00504FB3 /* Main.storyboard */; };
+		2C2EDE453076348D00504FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EDE443076348D00504FB3 /* AppDelegate.swift */; };
+		2C2EDE483076348D00504FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE463076348D00504FB3 /* Main.storyboard */; };
+		2C2EDE4F3076348D00504FB3 /* Go Search Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2C2EDE4E3076348D00504FB3 /* Go Search Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C2EDE593076348D00504FB3 /* Go Search Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2C2EDE583076348D00504FB3 /* Go Search Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C2EDE5E3076348D00504FB3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE233076348B00504FB3 /* Main.html */; };
+		2C2EDE5F3076348D00504FB3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE233076348B00504FB3 /* Main.html */; };
+		2C2EDE603076348D00504FB3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE253076348B00504FB3 /* Icon.png */; };
+		2C2EDE613076348D00504FB3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE253076348B00504FB3 /* Icon.png */; };
+		2C2EDE623076348D00504FB3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE263076348B00504FB3 /* Style.css */; };
+		2C2EDE633076348D00504FB3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE263076348B00504FB3 /* Style.css */; };
+		2C2EDE643076348D00504FB3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE273076348B00504FB3 /* Script.js */; };
+		2C2EDE653076348D00504FB3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE273076348B00504FB3 /* Script.js */; };
+		2C2EDE663076348D00504FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EDE283076348B00504FB3 /* ViewController.swift */; };
+		2C2EDE673076348D00504FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EDE283076348B00504FB3 /* ViewController.swift */; };
+		2C2EDE683076348D00504FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE293076348D00504FB3 /* Assets.xcassets */; };
+		2C2EDE693076348D00504FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE293076348D00504FB3 /* Assets.xcassets */; };
+		2C2EDE6A3076348D00504FB3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EDE2B3076348D00504FB3 /* SafariWebExtensionHandler.swift */; };
+		2C2EDE6B3076348D00504FB3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2EDE2B3076348D00504FB3 /* SafariWebExtensionHandler.swift */; };
+		2C2EDE853076348D00504FB3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE7D3076348D00504FB3 /* background.js */; };
+		2C2EDE863076348D00504FB3 /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE7E3076348D00504FB3 /* background.bundle.js */; };
+		2C2EDE873076348D00504FB3 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE7F3076348D00504FB3 /* options.js */; };
+		2C2EDE883076348D00504FB3 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE803076348D00504FB3 /* icons */; };
+		2C2EDE893076348D00504FB3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE813076348D00504FB3 /* manifest.json */; };
+		2C2EDE8A3076348D00504FB3 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE823076348D00504FB3 /* options.html */; };
+		2C2EDE8B3076348D00504FB3 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE833076348D00504FB3 /* options.css */; };
+		2C2EDE8C3076348D00504FB3 /* routing.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE843076348D00504FB3 /* routing.js */; };
+		2C2EDE8D3076348D00504FB3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE7D3076348D00504FB3 /* background.js */; };
+		2C2EDE8E3076348D00504FB3 /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE7E3076348D00504FB3 /* background.bundle.js */; };
+		2C2EDE8F3076348D00504FB3 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE7F3076348D00504FB3 /* options.js */; };
+		2C2EDE903076348D00504FB3 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE803076348D00504FB3 /* icons */; };
+		2C2EDE913076348D00504FB3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE813076348D00504FB3 /* manifest.json */; };
+		2C2EDE923076348D00504FB3 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE823076348D00504FB3 /* options.html */; };
+		2C2EDE933076348D00504FB3 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE833076348D00504FB3 /* options.css */; };
+		2C2EDE943076348D00504FB3 /* routing.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C2EDE843076348D00504FB3 /* routing.js */; };
+		F02200000000000000000000 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000000 /* LICENSE */; };
+		F02200000000000000000001 /* LICENSE-ASSETS.md in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000001 /* LICENSE-ASSETS.md */; };
+		F02200000000000000000002 /* LICENSE-ARTWORK in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000002 /* LICENSE-ARTWORK */; };
+		F02200000000000000000100 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000000 /* LICENSE */; };
+		F02200000000000000000101 /* LICENSE-ASSETS.md in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000001 /* LICENSE-ASSETS.md */; };
+		F02200000000000000000102 /* LICENSE-ARTWORK in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000002 /* LICENSE-ARTWORK */; };
+		F02200000000000000000200 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000000 /* LICENSE */; };
+		F02200000000000000000201 /* LICENSE-ASSETS.md in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000001 /* LICENSE-ASSETS.md */; };
+		F02200000000000000000202 /* LICENSE-ARTWORK in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000002 /* LICENSE-ARTWORK */; };
+		F02200000000000000000300 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000000 /* LICENSE */; };
+		F02200000000000000000301 /* LICENSE-ASSETS.md in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000001 /* LICENSE-ASSETS.md */; };
+		F02200000000000000000302 /* LICENSE-ARTWORK in Resources */ = {isa = PBXBuildFile; fileRef = F02100000000000000000002 /* LICENSE-ARTWORK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C2EDE503076348D00504FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2EDE1D3076348B00504FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C2EDE4D3076348D00504FB3;
+			remoteInfo = "Go Search Extension (iOS)";
+		};
+		2C2EDE5A3076348D00504FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2EDE1D3076348B00504FB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C2EDE573076348D00504FB3;
+			remoteInfo = "Go Search Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C2EDE713076348D00504FB3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				2C2EDE4F3076348D00504FB3 /* Go Search Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+		2C2EDE783076348D00504FB3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				2C2EDE593076348D00504FB3 /* Go Search Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C2EDE243076348B00504FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		2C2EDE253076348B00504FB3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2C2EDE263076348B00504FB3 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		2C2EDE273076348B00504FB3 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		2C2EDE283076348B00504FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C2EDE293076348D00504FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C2EDE2B3076348D00504FB3 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		2C2EDE303076348D00504FB3 /* Go Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2EDE333076348D00504FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C2EDE353076348D00504FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C2EDE383076348D00504FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C2EDE3B3076348D00504FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C2EDE3D3076348D00504FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2EDE423076348D00504FB3 /* Go Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2EDE443076348D00504FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C2EDE473076348D00504FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C2EDE493076348D00504FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2EDE4E3076348D00504FB3 /* Go Search Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Go Search Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2EDE533076348D00504FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2EDE583076348D00504FB3 /* Go Search Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Go Search Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2EDE5D3076348D00504FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2EDE7D3076348D00504FB3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../extension/background.js; sourceTree = "<group>"; };
+		2C2EDE7E3076348D00504FB3 /* background.bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.bundle.js; path = ../../../extension/background.bundle.js; sourceTree = "<group>"; };
+		2C2EDE7F3076348D00504FB3 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../../extension/options.js; sourceTree = "<group>"; };
+		2C2EDE803076348D00504FB3 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../../extension/icons; sourceTree = "<group>"; };
+		2C2EDE813076348D00504FB3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../extension/manifest.json; sourceTree = "<group>"; };
+		2C2EDE823076348D00504FB3 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../../extension/options.html; sourceTree = "<group>"; };
+		2C2EDE833076348D00504FB3 /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.css; path = ../../../extension/options.css; sourceTree = "<group>"; };
+		2C2EDE843076348D00504FB3 /* routing.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = routing.js; path = ../../../extension/routing.js; sourceTree = "<group>"; };
+		F02100000000000000000000 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = "LICENSE"; path = "../../LICENSE"; sourceTree = SOURCE_ROOT; };
+		F02100000000000000000001 /* LICENSE-ASSETS.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = "LICENSE-ASSETS.md"; path = "../../LICENSE-ASSETS.md"; sourceTree = SOURCE_ROOT; };
+		F02100000000000000000002 /* LICENSE-ARTWORK */ = {isa = PBXFileReference; lastKnownFileType = text; name = "LICENSE-ARTWORK"; path = "../../LICENSE-ARTWORK"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C2EDE2D3076348D00504FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		2C2EDE3F3076348D00504FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		2C2EDE4B3076348D00504FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		2C2EDE553076348D00504FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C2EDE1C3076348B00504FB3 = {
+			isa = PBXGroup;
+			children = (
+				F02100000000000000000000 /* LICENSE */,
+				F02100000000000000000001 /* LICENSE-ASSETS.md */,
+				F02100000000000000000002 /* LICENSE-ARTWORK */,
+				2C2EDE213076348B00504FB3 /* Shared (App) */,
+				2C2EDE2A3076348D00504FB3 /* Shared (Extension) */,
+				2C2EDE323076348D00504FB3 /* iOS (App) */,
+				2C2EDE433076348D00504FB3 /* macOS (App) */,
+				2C2EDE523076348D00504FB3 /* iOS (Extension) */,
+				2C2EDE5C3076348D00504FB3 /* macOS (Extension) */,
+				2C2EDE313076348D00504FB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C2EDE213076348B00504FB3 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EDE283076348B00504FB3 /* ViewController.swift */,
+				2C2EDE293076348D00504FB3 /* Assets.xcassets */,
+				2C2EDE223076348B00504FB3 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		2C2EDE223076348B00504FB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EDE233076348B00504FB3 /* Main.html */,
+				2C2EDE253076348B00504FB3 /* Icon.png */,
+				2C2EDE263076348B00504FB3 /* Style.css */,
+				2C2EDE273076348B00504FB3 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C2EDE2A3076348D00504FB3 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EDE7C3076348D00504FB3 /* Resources */,
+				2C2EDE2B3076348D00504FB3 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		2C2EDE313076348D00504FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EDE303076348D00504FB3 /* Go Search.app */,
+				2C2EDE423076348D00504FB3 /* Go Search.app */,
+				2C2EDE4E3076348D00504FB3 /* Go Search Extension.appex */,
+				2C2EDE583076348D00504FB3 /* Go Search Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C2EDE323076348D00504FB3 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EDE333076348D00504FB3 /* AppDelegate.swift */,
+				2C2EDE353076348D00504FB3 /* SceneDelegate.swift */,
+				2C2EDE373076348D00504FB3 /* LaunchScreen.storyboard */,
+				2C2EDE3A3076348D00504FB3 /* Main.storyboard */,
+				2C2EDE3D3076348D00504FB3 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		2C2EDE433076348D00504FB3 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EDE443076348D00504FB3 /* AppDelegate.swift */,
+				2C2EDE463076348D00504FB3 /* Main.storyboard */,
+				2C2EDE493076348D00504FB3 /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		2C2EDE523076348D00504FB3 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EDE533076348D00504FB3 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		2C2EDE5C3076348D00504FB3 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EDE5D3076348D00504FB3 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		2C2EDE7C3076348D00504FB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C2EDE7D3076348D00504FB3 /* background.js */,
+				2C2EDE7E3076348D00504FB3 /* background.bundle.js */,
+				2C2EDE7F3076348D00504FB3 /* options.js */,
+				2C2EDE803076348D00504FB3 /* icons */,
+				2C2EDE813076348D00504FB3 /* manifest.json */,
+				2C2EDE823076348D00504FB3 /* options.html */,
+				2C2EDE833076348D00504FB3 /* options.css */,
+				2C2EDE843076348D00504FB3 /* routing.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C2EDE2F3076348D00504FB3 /* Go Search (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2EDE723076348D00504FB3 /* Build configuration list for PBXNativeTarget "Go Search (iOS)" */;
+			buildPhases = (
+				2C2EDE2C3076348D00504FB3 /* Sources */,
+				2C2EDE2D3076348D00504FB3 /* Frameworks */,
+				2C2EDE2E3076348D00504FB3 /* Resources */,
+				2C2EDE713076348D00504FB3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C2EDE513076348D00504FB3 /* PBXTargetDependency */,
+			);
+			name = "Go Search (iOS)";
+			productName = "Go Search (iOS)";
+			productReference = 2C2EDE303076348D00504FB3 /* Go Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C2EDE413076348D00504FB3 /* Go Search (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2EDE793076348D00504FB3 /* Build configuration list for PBXNativeTarget "Go Search (macOS)" */;
+			buildPhases = (
+				2C2EDE3E3076348D00504FB3 /* Sources */,
+				2C2EDE3F3076348D00504FB3 /* Frameworks */,
+				2C2EDE403076348D00504FB3 /* Resources */,
+				2C2EDE783076348D00504FB3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C2EDE5B3076348D00504FB3 /* PBXTargetDependency */,
+			);
+			name = "Go Search (macOS)";
+			productName = "Go Search (macOS)";
+			productReference = 2C2EDE423076348D00504FB3 /* Go Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C2EDE4D3076348D00504FB3 /* Go Search Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2EDE6E3076348D00504FB3 /* Build configuration list for PBXNativeTarget "Go Search Extension (iOS)" */;
+			buildPhases = (
+				2C2EDE4A3076348D00504FB3 /* Sources */,
+				2C2EDE4B3076348D00504FB3 /* Frameworks */,
+				2C2EDE4C3076348D00504FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Go Search Extension (iOS)";
+			productName = "Go Search Extension (iOS)";
+			productReference = 2C2EDE4E3076348D00504FB3 /* Go Search Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2C2EDE573076348D00504FB3 /* Go Search Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2EDE753076348D00504FB3 /* Build configuration list for PBXNativeTarget "Go Search Extension (macOS)" */;
+			buildPhases = (
+				2C2EDE543076348D00504FB3 /* Sources */,
+				2C2EDE553076348D00504FB3 /* Frameworks */,
+				2C2EDE563076348D00504FB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Go Search Extension (macOS)";
+			productName = "Go Search Extension (macOS)";
+			productReference = 2C2EDE583076348D00504FB3 /* Go Search Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C2EDE1D3076348B00504FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					2C2EDE2F3076348D00504FB3 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					2C2EDE413076348D00504FB3 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					2C2EDE4D3076348D00504FB3 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					2C2EDE573076348D00504FB3 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C2EDE203076348B00504FB3 /* Build configuration list for PBXProject "Go Search" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C2EDE1C3076348B00504FB3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2C2EDE313076348D00504FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C2EDE2F3076348D00504FB3 /* Go Search (iOS) */,
+				2C2EDE413076348D00504FB3 /* Go Search (macOS) */,
+				2C2EDE4D3076348D00504FB3 /* Go Search Extension (iOS) */,
+				2C2EDE573076348D00504FB3 /* Go Search Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C2EDE2E3076348D00504FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				F02200000000000000000000 /* LICENSE in Resources */,
+				F02200000000000000000001 /* LICENSE-ASSETS.md in Resources */,
+				F02200000000000000000002 /* LICENSE-ARTWORK in Resources */,
+				2C2EDE603076348D00504FB3 /* Icon.png in Resources */,
+				2C2EDE393076348D00504FB3 /* LaunchScreen.storyboard in Resources */,
+				2C2EDE5E3076348D00504FB3 /* Main.html in Resources */,
+				2C2EDE643076348D00504FB3 /* Script.js in Resources */,
+				2C2EDE683076348D00504FB3 /* Assets.xcassets in Resources */,
+				2C2EDE3C3076348D00504FB3 /* Main.storyboard in Resources */,
+				2C2EDE623076348D00504FB3 /* Style.css in Resources */,
+			);
+		};
+		2C2EDE403076348D00504FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				F02200000000000000000100 /* LICENSE in Resources */,
+				F02200000000000000000101 /* LICENSE-ASSETS.md in Resources */,
+				F02200000000000000000102 /* LICENSE-ARTWORK in Resources */,
+				2C2EDE613076348D00504FB3 /* Icon.png in Resources */,
+				2C2EDE633076348D00504FB3 /* Style.css in Resources */,
+				2C2EDE483076348D00504FB3 /* Main.storyboard in Resources */,
+				2C2EDE653076348D00504FB3 /* Script.js in Resources */,
+				2C2EDE693076348D00504FB3 /* Assets.xcassets in Resources */,
+				2C2EDE5F3076348D00504FB3 /* Main.html in Resources */,
+			);
+		};
+		2C2EDE4C3076348D00504FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				F02200000000000000000200 /* LICENSE in Resources */,
+				F02200000000000000000201 /* LICENSE-ASSETS.md in Resources */,
+				F02200000000000000000202 /* LICENSE-ARTWORK in Resources */,
+				2C2EDE8D3076348D00504FB3 /* background.js in Resources */,
+				2C2EDE903076348D00504FB3 /* icons in Resources */,
+				2C2EDE913076348D00504FB3 /* manifest.json in Resources */,
+				2C2EDE8F3076348D00504FB3 /* options.js in Resources */,
+				2C2EDE933076348D00504FB3 /* options.css in Resources */,
+				2C2EDE943076348D00504FB3 /* routing.js in Resources */,
+				2C2EDE8E3076348D00504FB3 /* background.bundle.js in Resources */,
+				2C2EDE923076348D00504FB3 /* options.html in Resources */,
+			);
+		};
+		2C2EDE563076348D00504FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				F02200000000000000000300 /* LICENSE in Resources */,
+				F02200000000000000000301 /* LICENSE-ASSETS.md in Resources */,
+				F02200000000000000000302 /* LICENSE-ARTWORK in Resources */,
+				2C2EDE853076348D00504FB3 /* background.js in Resources */,
+				2C2EDE883076348D00504FB3 /* icons in Resources */,
+				2C2EDE893076348D00504FB3 /* manifest.json in Resources */,
+				2C2EDE873076348D00504FB3 /* options.js in Resources */,
+				2C2EDE8B3076348D00504FB3 /* options.css in Resources */,
+				2C2EDE8C3076348D00504FB3 /* routing.js in Resources */,
+				2C2EDE863076348D00504FB3 /* background.bundle.js in Resources */,
+				2C2EDE8A3076348D00504FB3 /* options.html in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C2EDE2C3076348D00504FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				2C2EDE663076348D00504FB3 /* ViewController.swift in Sources */,
+				2C2EDE343076348D00504FB3 /* AppDelegate.swift in Sources */,
+				2C2EDE363076348D00504FB3 /* SceneDelegate.swift in Sources */,
+			);
+		};
+		2C2EDE3E3076348D00504FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				2C2EDE673076348D00504FB3 /* ViewController.swift in Sources */,
+				2C2EDE453076348D00504FB3 /* AppDelegate.swift in Sources */,
+			);
+		};
+		2C2EDE4A3076348D00504FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				2C2EDE6A3076348D00504FB3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+		2C2EDE543076348D00504FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				2C2EDE6B3076348D00504FB3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C2EDE513076348D00504FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C2EDE4D3076348D00504FB3 /* Go Search Extension (iOS) */;
+			targetProxy = 2C2EDE503076348D00504FB3 /* PBXContainerItemProxy */;
+		};
+		2C2EDE5B3076348D00504FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C2EDE573076348D00504FB3 /* Go Search Extension (macOS) */;
+			targetProxy = 2C2EDE5A3076348D00504FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C2EDE233076348B00504FB3 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2EDE243076348B00504FB3 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		2C2EDE373076348D00504FB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2EDE383076348D00504FB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2C2EDE3A3076348D00504FB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2EDE3B3076348D00504FB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C2EDE463076348D00504FB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C2EDE473076348D00504FB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C2EDE6C3076348D00504FB3 /* Debug configuration for PBXProject "Go Search" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C2EDE6D3076348D00504FB3 /* Release configuration for PBXProject "Go Search" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2C2EDE6F3076348D00504FB3 /* Debug configuration for PBXNativeTarget "Go Search Extension (iOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.5.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengohlabs.gosearch.Extension;
+				PRODUCT_NAME = "Go Search Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C2EDE703076348D00504FB3 /* Release configuration for PBXNativeTarget "Go Search Extension (iOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.5.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengohlabs.gosearch.Extension;
+				PRODUCT_NAME = "Go Search Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C2EDE733076348D00504FB3 /* Debug configuration for PBXNativeTarget "Go Search (iOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Search";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.5.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengohlabs.gosearch;
+				PRODUCT_NAME = "Go Search";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C2EDE743076348D00504FB3 /* Release configuration for PBXNativeTarget "Go Search (iOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Search";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.5.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengohlabs.gosearch;
+				PRODUCT_NAME = "Go Search";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C2EDE763076348D00504FB3 /* Debug configuration for PBXNativeTarget "Go Search Extension (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.5.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengohlabs.gosearch.Extension;
+				PRODUCT_NAME = "Go Search Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C2EDE773076348D00504FB3 /* Release configuration for PBXNativeTarget "Go Search Extension (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.5.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengohlabs.gosearch.Extension;
+				PRODUCT_NAME = "Go Search Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2C2EDE7A3076348D00504FB3 /* Debug configuration for PBXNativeTarget "Go Search (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Search";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.5.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengohlabs.gosearch;
+				PRODUCT_NAME = "Go Search";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C2EDE7B3076348D00504FB3 /* Release configuration for PBXNativeTarget "Go Search (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Go Search";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.5.1;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengohlabs.gosearch;
+				PRODUCT_NAME = "Go Search";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C2EDE203076348B00504FB3 /* Build configuration list for PBXProject "Go Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2EDE6C3076348D00504FB3 /* Debug configuration for PBXProject "Go Search" */,
+				2C2EDE6D3076348D00504FB3 /* Release configuration for PBXProject "Go Search" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		2C2EDE6E3076348D00504FB3 /* Build configuration list for PBXNativeTarget "Go Search Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2EDE6F3076348D00504FB3 /* Debug configuration for PBXNativeTarget "Go Search Extension (iOS)" */,
+				2C2EDE703076348D00504FB3 /* Release configuration for PBXNativeTarget "Go Search Extension (iOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		2C2EDE723076348D00504FB3 /* Build configuration list for PBXNativeTarget "Go Search (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2EDE733076348D00504FB3 /* Debug configuration for PBXNativeTarget "Go Search (iOS)" */,
+				2C2EDE743076348D00504FB3 /* Release configuration for PBXNativeTarget "Go Search (iOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		2C2EDE753076348D00504FB3 /* Build configuration list for PBXNativeTarget "Go Search Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2EDE763076348D00504FB3 /* Debug configuration for PBXNativeTarget "Go Search Extension (macOS)" */,
+				2C2EDE773076348D00504FB3 /* Release configuration for PBXNativeTarget "Go Search Extension (macOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		2C2EDE793076348D00504FB3 /* Build configuration list for PBXNativeTarget "Go Search (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2EDE7A3076348D00504FB3 /* Debug configuration for PBXNativeTarget "Go Search (macOS)" */,
+				2C2EDE7B3076348D00504FB3 /* Release configuration for PBXNativeTarget "Go Search (macOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C2EDE1D3076348B00504FB3 /* Project object */;
+	validationLevel = 1;
+}

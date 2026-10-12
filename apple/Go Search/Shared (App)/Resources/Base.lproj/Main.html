@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../Style.css">
+    <script src="../Script.js" defer></script>
+</head>
+<body>
+    <img src="../Icon.png" width="128" height="128" alt="Go Search Icon">
+    <h1>Go Search</h1>
+    <p class="platform-ios">Open Settings → Apps → Safari → Extensions → Go Search and turn it on. Allow access to your search engine and shortcut destinations.</p>
+    <p class="platform-ios">Then open Go Search from Safari’s page menu and check that it says Ready.</p>
+    <p class="platform-mac state-unknown">You can turn on Go Search’s extension in Safari Settings → Extensions.</p>
+    <p class="platform-mac state-on">Go Search’s extension is currently on. You can turn it off in Safari Settings → Extensions.</p>
+    <p class="platform-mac state-off">Go Search’s extension is currently off. You can turn it on in Safari Settings → Extensions.</p>
+    <button type="button" class="platform-mac open-preferences">Quit &amp; Open Safari Settings</button>
+    <p id="settings-status" class="platform-mac" role="status" aria-live="polite"></p>
+</body>
+</html>

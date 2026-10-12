@@ -1,0 +1,41 @@
+:root { color-scheme: light dark; font: 13px/1.45 -apple-system,BlinkMacSystemFont,sans-serif; --ink:light-dark(#252629,#f2f2f4); --muted:light-dark(#696b72,#adb0b8); --line:light-dark(#00000010,#ffffff15); --surface:light-dark(#ffffff96,#ffffff0b); color:var(--ink); background:light-dark(#efeff2,#222326); }
+* { box-sizing:border-box; }
+html { min-width:360px; }
+body { margin:0; width:360px; min-width:360px; background:radial-gradient(ellipse at 0 0,light-dark(#ffffffc9,#ffffff0c),transparent 65%); }
+main { padding:20px; max-height:580px; overflow-y:auto; }
+header,.brand,.actions { display:flex; align-items:center; gap:10px; }
+header { justify-content:space-between; margin-bottom:18px; }
+h1 { font-size:17px; letter-spacing:-.5px; margin:0; font-weight:650; }
+h2 { font-size:16px; margin:0 0 16px; }
+.brand img { object-fit:contain; }
+
+.badge { font-size:10px; font-weight:600; padding:5px 8px; border:1px solid var(--line); border-radius:30px; color:var(--muted); white-space:nowrap; }
+.intro { color:var(--muted); margin:0 0 18px; font-size:12px; }
+.shortcuts { overflow:hidden; border-radius:16px; border:1px solid var(--line); background:var(--surface); box-shadow:inset 0 1px 0 #ffffff20,0 4px 16px #00000004; backdrop-filter:blur(24px) saturate(110%); }
+.shortcut { display:flex; align-items:center; text-align:left; gap:12px; width:100%; border:0; border-bottom:1px solid var(--line); border-radius:0; padding:14px; background:transparent; }
+.shortcut:last-child { border-bottom:0; }
+.key { min-width:34px; height:32px; display:grid; place-items:center; border-radius:9px; background:light-dark(#e9e9ed,#ffffff10); font:600 13px ui-monospace,monospace; }
+.details { flex:1; min-width:0; }
+.details strong,.details small { display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.details strong { font-size:13px; font-weight:600; }.details small { font-size:11px; color:var(--muted); margin-top:2px; }
+.chevron { color:var(--muted); font-size:18px; }
+button { cursor:pointer; color:inherit; min-height:40px; border:1px solid var(--line); background:var(--surface); border-radius:12px; padding:9px 13px; font:500 12px -apple-system,sans-serif; }
+button:hover { background:light-dark(#ffffff,#ffffff15); }button:disabled { opacity:.5;cursor:wait; }
+.add { width:100%; margin-top:12px; border-style:dashed; background:transparent; }
+.primary { background:light-dark(#303136,#e5e5ea); color:light-dark(#fff,#202125); border-color:transparent; }.primary:hover { opacity:.85; background:light-dark(#303136,#e5e5ea); }
+footer,.hint { font-size:11px; color:var(--muted); }footer { margin-top:19px;text-align:center; }kbd { padding:1px 5px; border:1px solid var(--line);border-radius:4px; }
+label { display:block; font-size:12px; font-weight:600; margin-top:13px; }
+input,select { display:block; width:100%; color:inherit; background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:11px; margin-top:6px; font:13px -apple-system,sans-serif; }
+.recommendations { border-top:1px solid var(--line); margin-top:22px; padding-top:18px; }
+.recommendations h2 { font-size:13px; margin-bottom:8px; }
+.suggestion { padding:12px; margin-top:10px; border:1px solid var(--line); border-radius:14px; background:var(--surface); }
+.suggestion p { margin:5px 0; overflow-wrap:anywhere; }
+.suggestion .actions { margin-top:10px; gap:6px; }
+.suggestion button { min-height:44px; padding:8px; }
+.quiet { background:transparent; font-size:11px; color:var(--muted); margin-top:10px; }
+.actions { justify-content:flex-end; margin-top:18px; }.actions button { flex:1; }
+.remove { color:light-dark(#aa3535,#ffaaaa); background:transparent; margin-top:12px; }
+.setup { padding:12px; border:1px solid var(--line);border-radius:12px;margin-top:14px; }.setup p { margin:0 0 10px;color:var(--muted);font-size:12px; }.setup button { width:100%; }
+#status { font-size:12px; margin:12px 0 0; }#status:empty { display:none; }
+:focus-visible { outline:2px solid light-dark(#707480,#b6bccb);outline-offset:3px; }[hidden] { display:none!important; }
+@media(prefers-reduced-transparency:reduce) { :root { --surface:light-dark(#fff,#2c2d31); }.shortcuts { backdrop-filter:none; } }
